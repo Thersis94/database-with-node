@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/drill.js",
+    "start": "node src/blogful.js",
     "predeploy": "npm audit",
-    "deploy": "git push heroku master"
+    "deploy": "git push heroku master",
+    "test": "mocha --require test/setup.js"
   },
   "keywords": [],
   "author": "",
